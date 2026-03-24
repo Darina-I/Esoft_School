@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.house{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.foundation{
+    background: rgb(242, 220, 198);
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.window{
+    background: rgb(143, 221, 237);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 10%;
+}
+
+.door{
+    height: 100px;
+    width: 70px;
+    background: black;
+    align-self: end;
+    margin-left: 15%;
+}
+
+.roof{
+    border-left: 150px solid transparent; 
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid rgb(98, 59, 0);
+    z-index: 1;
+}
+
+.flue{
+    background: black;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    height: 100px;
+    width: 50px;
+}
